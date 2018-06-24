@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/lvcity" 
+	auth="Container" 
+	type="javax.sql.DataSource"
+	username="root"
+	password=""
+	url="jdbc:mysql://localhost:3306/lvcitydb"
+	driverClassName="com.mysql.jdbc.Driver "
+	maxIdle="2"
+	maxWait="5000"
+	maxActive="4" />
+</Context>
