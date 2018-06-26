@@ -141,7 +141,7 @@
 		}
 		function editBanar() {
 			var imageinput = document.getElementsByName('image');
-            imageinput.value = '';
+            imageinput.value ='';
 			var row = $('#banar_dg').datagrid('getSelected');
 			document.getElementById('xmTanImg').src = row.image;
 			if (row) {
